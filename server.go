@@ -5,6 +5,6 @@ package raft
 
 // Server wraps ConsensusModule
 type Server struct {
-	id int // Server Id
-	cm *ConsensusModule  // consensus module communicating with Log and sync StateMachine
+	id int              // Server Id
+	cm *ConsensusModule // consensus module communicating with Log and sync StateMachine
 }
